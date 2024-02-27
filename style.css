@@ -4,13 +4,13 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
+    background-position: center;
     opacity: 0.6;
     color: aliceblue;
     text-align: center;
     padding: 10px;
 }
 /*HEADER ENDS HERE*/
-
 
 /*TABLE STARTS HERE*/
 table, th {
@@ -37,8 +37,32 @@ caption{
 /*TABLE ENDS HERE*/
 
 /*LIST STARTS HERE*/
-
-
-
-
+.darkbg{
+    background-color: #333333;
+    list-style-type: none;
+    padding: 15px;
+}
+.whiteText {
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 15px;
+}
+.hover:hover{
+    background-color: #111111;
+}
+.floatL{
+    float: left;
+}
+.padding5{
+    padding: 5px;
+}
 /*LIST ENDS HERE*/
+
+/*JAVASCRIPT STARTS HERE*/
+#datebttn {
+    background-color: #333333;
+    color: antiquewhite;
+}
+#datebttn:hover {
+    background-color: #111111;
+}

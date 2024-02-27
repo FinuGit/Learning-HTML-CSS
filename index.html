@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
+
 <!--HEADER STARTS HERE-->
     <div class="imgheader">
         <h1>This is the header</h1>
     </div>
-<p style="border-bottom: solid 5px;"></p>
+    <p style="border-bottom: solid 5px;"></p>
 <!--HEADER ENDS HERE-->
 
 <!--TABLE STARTS HERE-->
@@ -20,7 +21,7 @@
             <caption>Grafik</caption>
             <tr>
                 <th></th>
-                <th>MON</th> <!--double-->
+                <th>MON</th> <!--double?-->
                 <th>TUE</th>
                 <th>WED</th>
                 <th>THU</th>
@@ -48,12 +49,57 @@
                 <td></td><td></td><td></td><td></td><td></td>
             </tr>
         </table>
+    <p style="border-bottom: 5px solid black;"></p>
 <!--TABLE ENDS HERE-->
 
 <!--LIST STARTS HERE-->
+    <h3>List test</h3>
+        <ul style="list-style-type: georgian;">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+        <ol>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ol>
+        <dl>
+            <dt>Coffee</dt>
+                <dd>- black</dd>
+            <dt>Tea</dt>
+                <dd>- black</dd>
+                <dd>- green</dd>
+            <dt>Milk</dt>
+        </dl>
 
-
-
+    <h2>Navigation Menu Test</h2>
+        <ul class="darkbg">
+            <li class="floatL"><a href="#home" class="whiteText hover">Home</a></li>
+            <li class="floatL"><a href="#gallery" class="whiteText hover">Gallery</a></li>
+            <li class="floatL"><a href="#contact" class="whiteText hover">Contact</a></li>
+            <li><a href="#about" class="whiteText hover">About</a></li>
+        </ul>
+            
+    <h2>Ordered list</h2>
+            <ol type="A">
+                <li class="padding5">First</li>
+                <li class="padding5">Second</li>
+                <li class="padding5">Third</li>
+            </ol>
+    <p style="border-bottom: 5px solid black;"></p>
 <!--LIST ENDS HERE-->
+
+<!--Iframe STARTS HERE-->
+    <h2>Testing Iframe</h2> 
+        <iframe src="cv/cv.html" width="900" height="400" title="CV Oliwia Dybał" style="border: none;"></iframe>
+    <p style="border-bottom: 5px solid black;"></p>
+<!--Iframe ENDS HERE-->
+
+<!--Testing JavaScript STARTS HERE-->
+    <h2>Testing Java Script</h2>
+        <button id="datebttn" type="menu" onclick="document.getElementById('date').innerHTML=Date()" style="width: 300px; height: 40px;">Press to display Date and Time</button>
+        <p id="date"></p>  
+<!--Testing JavaScript ENDS HERE-->
 </body>
 </html>
