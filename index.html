@@ -98,8 +98,26 @@
 
 <!--Testing JavaScript STARTS HERE-->
     <h2>Testing Java Script</h2>
-        <button id="datebttn" type="menu" onclick="document.getElementById('date').innerHTML=Date()" style="width: 300px; height: 40px;">Press to display Date and Time</button>
-        <p id="date"></p>  
+        <button class="darkbutton" onclick="document.getElementById('date').innerHTML=Date()" style="width: 300px; height: 40px;">Press to display Date and Time</button>
+        <p id="date"></p>
+    <p style="border-bottom: 1px solid thistle;"></p>
+    <h3 style="color: darkslategray; text-decoration: underline;">Choose a cat or a dog</h3>
+        <script>
+            function image(x){
+                var pic
+                if (x == 0){
+                    pic="imgs/cat.png"
+                } else {
+                    pic="imgs/dog.png"
+                }
+                document.getElementById('catordog').src=pic;
+            }
+        </script>
+        <img id="catordog" src="imgs/catndog.png">
+        <p>
+            <button class="darkbutton" onclick="image(0)">Cat</button>
+            <button class="darkbutton" onclick="image(1)">Dog</button>
+        </p>
 <!--Testing JavaScript ENDS HERE-->
 </body>
 </html>
