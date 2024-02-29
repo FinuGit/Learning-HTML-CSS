@@ -101,7 +101,7 @@
         <button class="darkbutton" onclick="document.getElementById('date').innerHTML=Date()" style="width: 300px; height: 40px;">Press to display Date and Time</button>
         <p id="date"></p>
     <p style="border-bottom: 1px solid thistle;"></p>
-    <h3 style="color: darkslategray; text-decoration: underline;">Choose a cat or a dog</h3>
+    <h3 style="color: rgb(26, 44, 44); text-decoration: underline;">Choose a cat or a dog</h3>
         <script>
             function image(x){
                 var pic
@@ -118,6 +118,36 @@
             <button class="darkbutton" onclick="image(0)">Cat</button>
             <button class="darkbutton" onclick="image(1)">Dog</button>
         </p>
+        <p style="border-bottom: 5px solid;"></p>
 <!--Testing JavaScript ENDS HERE-->
+
+<!--RESPONSIVENESS TEST STARTS HERE-->
+    <h2>Testing page responsiveness here *for mobile*</h2>
+<div id="responsivenessBG">
+    <h1 class="darkbg" style="text-align: center;">The Header</h1>
+    
+    <div style="overflow: auto;">
+        <div class="menu">
+                <a href="#" class="hover whiteText">Home</a>
+                <a href="#" class="hover whiteText">Gallery</a>
+                <a href="#" class="hover whiteText">Contact</a>
+                <a href="#" class="hover whiteText">About</a>
+        </div>
+
+        <div class="main">
+            <h2>Title</h2>
+            <p>The description</p>
+        </div>
+
+        <div class="right">
+            <h2>About</h2>
+            <p>The description</p>
+        </div>
+    </div>
+
+    <div style="background-color: #999999; color: rgba(250, 235, 215, 0.6); text-align: center; padding: 8px; margin-top: 21.44px;">@The footer here</div>
+</div>
+<!--RESPONSIVENESS TEST ENDS HERE-->
+
 </body>
 </html>
